@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultPageActivity"
+    android:background="@drawable/backgroundcolor"
+
+
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:text="Score"
+        android:id="@+id/text1"
+        android:layout_marginTop="70dp"
+android:textColor="@color/white"
+        android:background="@drawable/scorebutoon23"
+
+
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="29dp"
+        android:textColor="@color/white"
+
+        android:gravity="center_horizontal"
+
+        android:text="Score"
+        android:textStyle="bold"
+        android:id="@+id/text2"
+        android:background="@drawable/scorebtton"
+        android:layout_below="@+id/text1"
+
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:textStyle="bold"
+
+        android:text="Score"
+        android:textColor="@color/white"
+        android:id="@+id/text3"
+        android:layout_below="@id/text2"
+        android:gravity="center"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/lastscore"
+
+        android:textSize="23dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/resultimage"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRestart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="25dp"
+        android:shadowRadius="600"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonback"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="350dp"/>
+
+
+</RelativeLayout>
